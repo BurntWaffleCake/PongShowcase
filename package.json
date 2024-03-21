@@ -1,0 +1,16 @@
+{
+  "name": "pongshowcase",
+  "version": "1.0.0",
+  "description": "Pong Game Showcase",
+  "main": "dist/index.js",
+  "scripts": {
+    "update": "npm i",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}

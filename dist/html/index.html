@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pong</title>
+    <meta name="description" content="Pong Game" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+
+  <body>
+    <div class="position-absolute" id="options">
+      <div>
+        <label for="gravity_mode">Gravity Mode</label>
+        <input autocomplete="on" id="gravity_mode" type="checkbox" />
+      </div>
+      <div>
+        <label for="short_paddle">Short Paddle</label>
+        <input autocomplete="on" id="short_paddle" type="checkbox" />
+      </div>
+      <div>
+        <label for="long_paddle">Long Paddle</label>
+        <input autocomplete="on" id="long_paddle" type="checkbox" />
+      </div>
+    </div>
+    <canvas id="source"></canvas>
+  </body>
+
+  <script src="../js/index.js"></script>
+</html>
